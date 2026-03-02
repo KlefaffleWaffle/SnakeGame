@@ -6,9 +6,9 @@ This project was originally developed as a Java Applet and later modernized to r
 
 ## How to Run
 **Requirements:** Java 21 or later
-```
-in the command line type:
 
+in the command line type:
+```
 "java -jar [FilePath]\SnakeGame.jar"
 ```
 
