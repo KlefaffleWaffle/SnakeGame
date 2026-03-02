@@ -2,7 +2,8 @@
 The classic video game "Snake" built in Java using Swing.
 
 ## About
-This project was originally developed as a Java Applet and later modernized to run as a standalone Swing application, moving away from the deprecated Applet framework.
+This was my first major Java project, developed years before I started using GitHub. At the time, building a functional game felt like a massive undertaking — looking back now, it's humbling to see how far I've come. Originally written as a Java Applet, the project was later modernized to run as a standalone Swing application after Applets were deprecated and removed from Java.
+Unlike many beginner Snake implementations which rely on CLI output and ASCII characters, this project was built with a true GUI from the ground up — featuring real window management, frame-by-frame animation, and real-time keyboard input. Through this project I learned foundational concepts including window management, game loops, animation, threading models, and real-time input handling.
 
 ## How to Run
 **Requirements:** Java 21 or later
