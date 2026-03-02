@@ -41,3 +41,8 @@ The game is rendered inside a `JFrame` window managed by Swing. The game board i
 - Java 21
 - Java Swing
 - Java2D
+
+
+https://github.com/user-attachments/assets/3eb7d112-8384-49b5-b282-f660ae71a790
+
+(Please keep in mind the recording frame rate was off from the game's frame rate causing a jumpy-ness)
