@@ -1,26 +1,27 @@
 # Snake Game
-A classic Snake game built in Java using Swing.
+The classic video game "Snake" built in Java using Swing.
 
 ## About
 This project was originally developed as a Java Applet and later modernized to run as a standalone Swing application, moving away from the deprecated Applet framework.
 
 ## How to Run
 **Requirements:** Java 21 or later
-
-**Option 1 — Command line:**
 ```
-java -jar SnakeGame.jar
-```
+in the command line type:
 
-**Option 2 — Double-click:** Right-click the JAR file → Open with → Java Platform Binary
+"java -jar [FilePath]\SnakeGame.jar"
+```
 
 ## Controls
-| Key | Action |
-|-----|--------|
+| Input | Action |
+|-------|--------|
+| Click screen | Start game |
 | ↑ | Move Up |
 | ↓ | Move Down |
 | ← | Move Left |
 | → | Move Right |
+
+Note: The snake cannot reverse direction — e.g. pressing ↓ while moving ↑ has no effect.
 
 ## Technical Implementation
 
@@ -28,7 +29,7 @@ java -jar SnakeGame.jar
 The game uses a `KeyListener` to capture keyboard input directly, providing immediate, real-time response the instant a key is pressed. Input is not buffered or character-based — there is no need to press Enter, and there is no input delay between keypress and action.
 
 ### Threading & Game Loop
-The game runs on a dedicated thread separate from the Swing Event Dispatch Thread (EDT), ensuring the UI remains responsive while the game loop runs continuously. This prevents the game logic from blocking rendering or user input.
+The game loop is driven by a javax.swing.Timer, which fires every 500ms to update game state and trigger a repaint. This keeps the game logic simple while remaining compatible with Swing's rendering model.
 
 ### Timing & Animation
 Frame timing is handled programmatically to produce consistent, smooth animation regardless of system load. The game loop controls the speed of the snake and the rate at which the board is repainted, giving the game a predictable and stable feel.
