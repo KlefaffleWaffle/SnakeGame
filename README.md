@@ -43,6 +43,9 @@ The game is rendered inside a `JFrame` window managed by Swing. The game board i
 - Java2D
 
 
-https://github.com/user-attachments/assets/3eb7d112-8384-49b5-b282-f660ae71a790
 
-(Please keep in mind the recording frame rate was off from the game's frame rate causing a jumpy-ness)
+https://github.com/user-attachments/assets/b3b38fae-c680-424b-8483-1de97b073753
+
+
+
+(Please keep in mind the recording frame rate was off from the game's frame rate causing the animation to look jumpy)
