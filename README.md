@@ -13,6 +13,8 @@ in the command line type:
 "java -jar [FilePath]\SnakeGame.jar"
 ```
 
+Alternatively, if you have windows, you can download the bat file to the same directory and run the bat file.
+
 ## Controls
 | Input | Action |
 |-------|--------|
